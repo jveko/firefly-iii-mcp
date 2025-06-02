@@ -9,7 +9,7 @@
 
 ### Phase 1: Foundation
 - [x] Step 1: Project Setup and Structure
-- [ ] Step 2: Basic MCP Server with Health Check
+- [x] Step 2: Basic MCP Server with Health Check
 - [ ] Step 3: Firefly III Client Foundation
 - [ ] Step 4: Connection Management Tools
 - [ ] Step 5: Data Models and Type Definitions
@@ -44,7 +44,8 @@
 
 ## Current Working Items
 
-- Step 1: Project Setup and Structure - COMPLETED
+- Step 2: Basic MCP Server with Health Check - COMPLETED
+- Next: Step 3: Firefly III Client Foundation
 
 ## Completed Items
 
