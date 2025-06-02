@@ -3,7 +3,7 @@
 ## Project Status
 
 **Current Phase**: Implementation In Progress  
-**Next Step**: Implementation Step 5 - Data Models and Type Definitions
+**Next Step**: Implementation Step 6 - Accounts Resource Implementation
 
 ## Implementation Progress
 
@@ -12,7 +12,7 @@
 - [x] Step 2: Basic MCP Server with Health Check
 - [x] Step 3: Firefly III Client Foundation
 - [x] Step 4: Connection Management Tools
-- [ ] Step 5: Data Models and Type Definitions
+- [x] Step 5: Data Models and Type Definitions
 
 ### Phase 2: Core Resources
 - [ ] Step 6: Accounts Resource Implementation
@@ -44,8 +44,8 @@
 
 ## Current Working Items
 
-- Step 4: Connection Management Tools - COMPLETED
-- Next: Step 5: Data Models and Type Definitions
+- Step 5: Data Models and Type Definitions - COMPLETED
+- Next: Step 6: Accounts Resource Implementation
 
 ## Completed Items
 
