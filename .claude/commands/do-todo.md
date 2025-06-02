@@ -4,5 +4,6 @@
     - Write robust, well-documented code.
     - Include comprehensive tests and debug logging.
     - Verify that all tests pass.
-4. Commit your changes and open a pull request referencing the issue.
-5. Check off the items on todo.md
+4. Check off the items on todo.md
+5. Commit your changes.
+6. merge your branch into the main branch.

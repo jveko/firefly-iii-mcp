@@ -3,14 +3,14 @@
 ## Project Status
 
 **Current Phase**: Implementation In Progress  
-**Next Step**: Implementation Step 2 - Basic MCP Server with Health Check
+**Next Step**: Implementation Step 4 - Connection Management Tools
 
 ## Implementation Progress
 
 ### Phase 1: Foundation
 - [x] Step 1: Project Setup and Structure
 - [x] Step 2: Basic MCP Server with Health Check
-- [ ] Step 3: Firefly III Client Foundation
+- [x] Step 3: Firefly III Client Foundation
 - [ ] Step 4: Connection Management Tools
 - [ ] Step 5: Data Models and Type Definitions
 
@@ -44,8 +44,8 @@
 
 ## Current Working Items
 
-- Step 2: Basic MCP Server with Health Check - COMPLETED
-- Next: Step 3: Firefly III Client Foundation
+- Step 3: Firefly III Client Foundation - COMPLETED
+- Next: Step 4: Connection Management Tools
 
 ## Completed Items
 
