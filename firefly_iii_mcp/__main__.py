@@ -1,16 +1,17 @@
-# ABOUTME: This file enables running the package as a module with python -m firefly_iii_mcp.
+# ABOUTME: This file enables running the package as python -m firefly_iii_mcp.
 # ABOUTME: It imports and executes the main server function to start the MCP server.
 
 """Entry point for running the Firefly III MCP server."""
 
-import sys
-from .server import serve
+from .server import mcp
 
 
 def main():
     """Main entry point for the CLI."""
-    return serve()
+    # FastMCP handles the execution when called directly
+    mcp.run()
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
+
