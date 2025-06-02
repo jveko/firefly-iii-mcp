@@ -17,17 +17,13 @@ logger = logging.getLogger(__name__)
 # Initialize FastMCP server
 mcp = FastMCP("firefly-iii-mcp")
 
+# Import tools to register them with the server
+from . import tools
 
-@mcp.tool()
-async def health_check() -> dict[str, str]:
-    """Check the health status of the Firefly III MCP server.
-    
-    Returns a simple status indicating the server is running.
-    This tool can be used to verify the MCP server is responsive.
-    
-    Returns:
-        Dict containing status and service name
-    """
-    logger.debug("Health check requested")
-    return {"status": "ok", "service": "firefly-iii-mcp"}
 
+def serve():
+    """Start the MCP server."""
+    logger.info("Starting Firefly III MCP server...")
+    # Run the FastMCP server
+    mcp.run()
+    return 0
